@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     for (let button of buttons) {
         button.addEventListener("click", function() {
-            let choice = this.getAttribute("data-type")
-            return alert(`You clicked ${choice}`)
+            let choice = this.getAttribute("data-type");
+            return alert(`You played ${choice}`);
         })
     }
 })
