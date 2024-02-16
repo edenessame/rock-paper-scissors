@@ -19,6 +19,8 @@ function runGame() {
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
 
+    console.log(computerChoice)
+
     if (choice == computerChoice) {
         return alert ("Draw!");
     } 
