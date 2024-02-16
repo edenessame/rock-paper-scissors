@@ -19,13 +19,30 @@ function runGame() {
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
 
-
-}
-
-function computerTurn() {
-    let computerChoices = ["Rock", "Paper", "Scissors"];
-    let randomChoice = Math.floor(Math.random() * 3);
-    let computerChoice = computerChoices[randomChoice];
+    if (choice == computerChoice) {
+        alert ("Draw!");
+    } 
+    else if (choice == "Rock") {
+        if (computer == "Scissors"){
+            alert ("You won!");
+        } else {
+            alert ("You lost!");
+        }
+    }
+    else if (choice == "Paper") {
+        if (computer == "Rock"){
+            alert ("You won!");
+        } else {
+            alert ("You lost!");
+        }
+    }
+    else if (choice == "Scissors") {
+        if (computer == "Paper"){
+            alert ("You won!");
+        } else {
+            alert ("You lost!");
+        }
+    }
 }
 
 function result() {
