@@ -15,29 +15,29 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 function runGame() {
-    let computerChoices = ["Rock", "Paper", "Scissors"];
+    let computerChoices = ["rock", "paper", "scissors"];
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
 
     if (choice == computerChoice) {
         return alert ("Draw!");
     } 
-    else if (choice == "Rock") {
-        if (computerChoice == "Scissors"){
+    else if (choice == "rock") {
+        if (computerChoice == "scissors"){
             return alert ("You won!");
         } else {
             return alert ("You lost!");
         }
     }
-    else if (choice == "Paper") {
-        if (computerChoice == "Rock"){
+    else if (choice == "paper") {
+        if (computerChoice == "rock"){
             return alert ("You won!");
         } else {
             return alert ("You lost!");
         }
     }
-    else if (choice == "Scissors") {
-        if (computerChoice == "Paper"){
+    else if (choice == "scissors") {
+        if (computerChoice == "paper"){
             return alert ("You won!");
         } else {
             return alert ("You lost!");
