@@ -20,27 +20,27 @@ function runGame() {
     computerChoice = computerChoices[randomChoice];
 
     if (choice == computerChoice) {
-        alert ("Draw!");
+        return alert ("Draw!");
     } 
     else if (choice == "Rock") {
-        if (computer == "Scissors"){
-            alert ("You won!");
+        if (computerChoice == "Scissors"){
+            return alert ("You won!");
         } else {
-            alert ("You lost!");
+            return alert ("You lost!");
         }
     }
     else if (choice == "Paper") {
-        if (computer == "Rock"){
-            alert ("You won!");
+        if (computerChoice == "Rock"){
+            return alert ("You won!");
         } else {
-            alert ("You lost!");
+            return alert ("You lost!");
         }
     }
     else if (choice == "Scissors") {
-        if (computer == "Paper"){
-            alert ("You won!");
+        if (computerChoice == "Paper"){
+            return alert ("You won!");
         } else {
-            alert ("You lost!");
+            return alert ("You lost!");
         }
     }
 }
