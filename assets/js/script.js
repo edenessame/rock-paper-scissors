@@ -4,9 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let button of buttons) {
         button.addEventListener("click", function() {
             let choice = this.getAttribute("data-type");
-            return alert(`You played ${choice}`);
+            runGame();
         })
     }
+
+    runGame();
 })
 
 function runGame() {
@@ -14,7 +16,9 @@ function runGame() {
 }
 
 function computerTurn() {
-
+    let computerChoices = ["Rock", "Paper", "Scissors"];
+    let randomChoice = Math.floor(Math.random() * 3);
+    let computerChoice = computerChoices[randomChoice];
 }
 
 function checkAnswer() {
