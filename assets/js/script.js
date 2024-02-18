@@ -27,22 +27,28 @@ function runGame() {
     else if (choice == "rock") {
         if (computerChoice == "scissors"){
             return alert ("You won!");
+            incrementPlayerScore();
         } else {
             return alert ("You lost!");
+            incrementComputerScore();
         }
     }
     else if (choice == "paper") {
         if (computerChoice == "rock"){
             return alert ("You won!");
+            incrementPlayerScore();
         } else {
             return alert ("You lost!");
+            incrementComputerScore();
         }
     }
     else if (choice == "scissors") {
         if (computerChoice == "paper"){
             return alert ("You won!");
+            incrementPlayerScore();
         } else {
             return alert ("You lost!");
+            incrementComputerScore();
         }
     }
 }
@@ -51,10 +57,26 @@ function result() {
 
 }
 
+/**
+ * Gets the current score from the DOM and increments it by 1
+ * code taken from the code institute love maths walk through project
+ * https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/03-displaying-the-question-and-answer/04-updating-the-scores/assets/js/script.js
+ */
 function incrementPlayerScore() {
+
+    let oldScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++oldScore;
 
 }
 
+/**
+ * Gets the current score from the DOM and increments it by 1
+ * code taken from the code institute love maths walk through project
+ * https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/03-displaying-the-question-and-answer/04-updating-the-scores/assets/js/script.js
+ */
 function incrementComputerScore() {
+    
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
 
 }
