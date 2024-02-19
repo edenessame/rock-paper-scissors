@@ -55,6 +55,15 @@ function runGame() {
 }
 
 function result() {
+    let playerScore =document.getElementById("user-score")
+    let computerScore =document.getElementById("Computer-score")
+    let result = document.getElementById("result")
+    
+    if (playerScore >= 5) {
+        result.innerText = "Congratulations! You won 5 times! You won!"
+    } else (computerScore >= 5) {
+        result.innerText = "Oh no! The computer won 5 times! You lost!"
+    }
 
 }
 
