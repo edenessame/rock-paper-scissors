@@ -26,29 +26,30 @@ function runGame() {
     } 
     else if (choice == "rock") {
         if (computerChoice == "scissors"){
-            return alert ("You won!");
             incrementPlayerScore();
+            return alert ("You won!");
+            
         } else {
-            return alert ("You lost!");
             incrementComputerScore();
+            return alert ("You lost!");
         }
     }
     else if (choice == "paper") {
         if (computerChoice == "rock"){
-            return alert ("You won!");
             incrementPlayerScore();
+            return alert ("You won!");
         } else {
-            return alert ("You lost!");
             incrementComputerScore();
+            return alert ("You lost!");
         }
     }
     else if (choice == "scissors") {
         if (computerChoice == "paper"){
-            return alert ("You won!");
             incrementPlayerScore();
+            return alert ("You won!");
         } else {
-            return alert ("You lost!");
             incrementComputerScore();
+            return alert ("You lost!");   
         }
     }
 }
