@@ -1,6 +1,10 @@
 let choice
 let computerChoice
 
+let playerScore =document.getElementById("user-score")
+let computerScore =document.getElementById("Computer-score")
+let result = document.getElementById("result")
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     
@@ -19,7 +23,7 @@ function runGame() {
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
 
-    let result = document.getElementById("result")
+    
 
     if (choice == computerChoice) {
         result.innerText = "It's a draw!";
@@ -52,19 +56,17 @@ function runGame() {
             result.innerText = "You lost!";   
         }
     }
+    
 }
 
-function result() {
-    let playerScore =document.getElementById("user-score")
-    let computerScore =document.getElementById("Computer-score")
-    let result = document.getElementById("result")
+function winner() {
+    
     
     if (playerScore >= 5) {
-        result.innerText = "Congratulations! You won 5 times! You won!"
-    } else (computerScore >= 5) {
-        result.innerText = "Oh no! The computer won 5 times! You lost!"
+        result.innerText = "Congratulations! You won 5 times! You won!";
+    } else (computerScore >= 5); {
+        result.innerText = "Oh no! The computer won 5 times! You lost!";
     }
-
 }
 
 /**
