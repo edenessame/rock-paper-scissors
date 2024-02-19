@@ -19,37 +19,37 @@ function runGame() {
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
 
-    console.log(computerChoice)
+    let result = document.getElementById("result")
 
     if (choice == computerChoice) {
-        return alert ("Draw!");
+        result.innerText = "It's a draw!";
     } 
     else if (choice == "rock") {
         if (computerChoice == "scissors"){
             incrementPlayerScore();
-            return alert ("You won!");
+            result.innerText = "You won!";
             
         } else {
             incrementComputerScore();
-            return alert ("You lost!");
+            result.innerText = "You lost!";
         }
     }
     else if (choice == "paper") {
         if (computerChoice == "rock"){
             incrementPlayerScore();
-            return alert ("You won!");
+            result.innerText = "You won!";
         } else {
             incrementComputerScore();
-            return alert ("You lost!");
+            result.innerText = "You lost!";
         }
     }
     else if (choice == "scissors") {
         if (computerChoice == "paper"){
             incrementPlayerScore();
-            return alert ("You won!");
+            result.innerText = "You won!";
         } else {
             incrementComputerScore();
-            return alert ("You lost!");   
+            result.innerText = "You lost!";   
         }
     }
 }
