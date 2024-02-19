@@ -1,6 +1,8 @@
 let choice
 let computerChoice
 
+let userScore = parseInt(document.getElementById("user-score"));
+let computerScore = parseInt(document.getElementById("computer-score"));
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -54,19 +56,18 @@ function runGame() {
             result.innerText = "You lost!";   
         }
     }
-    
+    checkWinner();
 }
 
-function winner() {
-    let playerScore =document.getElementById("user-score")
-    let computerScore =document.getElementById("Computer-score")
-    let result = document.getElementById("result")
+function checkWinner() {
     
-    if (playerScore >= 5) {
-        result.innerText = "Congratulations! You won 5 times! You won!";
-    } else (computerScore >= 5); {
-        result.innerText = "Oh no! The computer won 5 times! You lost!";
-    }
+    let winner = document.getElementById("winner");
+    
+    if (userScore == 5) {
+        winner.innerText = "Congratulations! You won 5 times!";
+    } else if (computerScore == 5) {
+        winner.innerText = "Oh no! The computer won 5 times!";
+    } 
 }
 
 /**
