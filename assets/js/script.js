@@ -29,40 +29,40 @@ function runGame() {
     let result = document.getElementById("result")
 
     if (choice == computerChoice) {
-        result.innerText = "It's a draw!";
+        result.innerText = `You played ${choice}. Computer played ${computerChoice} It's a draw!`;
     } 
     else if (choice == "rock") {
         if (computerChoice == "scissors"){
             incrementPlayerScore();
             userScore++
-            result.innerText = "You won!";
+            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
             
         } else {
             incrementComputerScore();
             computerScore++
-            result.innerText = "You lost!";
+            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
         }
     }
     else if (choice == "paper") {
         if (computerChoice == "rock"){
             incrementPlayerScore();
             userScore++
-            result.innerText = "You won!";
+            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
         } else {
             incrementComputerScore();
             computerScore++
-            result.innerText = "You lost!";
+            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
         }
     }
     else if (choice == "scissors") {
         if (computerChoice == "paper"){
             incrementPlayerScore();
             userScore++
-            result.innerText = "You won!";
+            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
         } else {
             incrementComputerScore();
             computerScore++
-            result.innerText = "You lost!";   
+            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
         }
     }
     checkWinner();
