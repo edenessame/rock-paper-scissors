@@ -28,6 +28,12 @@ function runGame() {
 
     let result = document.getElementById("result")
 
+    let playerChoiceSpan = document.getElementById("player-choice")
+    let computerChoiceSpan = document.getElementById("computer-choice")
+
+    playerChoiceSpan.innerText = `${choice}`;
+    computerChoiceSpan.innerText = `${computerChoice}`;
+
     if (choice == computerChoice) {
         result.innerText = `You played ${choice}. Computer played ${computerChoice} It's a draw!`;
     } 
@@ -36,8 +42,7 @@ function runGame() {
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
-            
-        } else {
+            } else {
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
