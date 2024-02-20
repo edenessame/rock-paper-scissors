@@ -5,6 +5,7 @@ let userScore = 0
 let computerScore = 0
 
 
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     
@@ -14,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
             runGame();
         })
     }
+
+    document.getElementById("replay").addEventListener("click", replayGame);
 
     runGame();
 })
@@ -69,10 +72,12 @@ function checkWinner() {
     
     let winner = document.getElementById("winner");
     
-    if (userScore == 5) {
+    if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!";
-    } else if (computerScore == 5) {
+        return;
+    } else if (computerScore >= 5) {
         winner.innerText = "Oh no! The computer won 5 times! You lost!";
+        return;
     } 
 }
 
@@ -98,4 +103,10 @@ function incrementComputerScore() {
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
 
+}
+
+function replayGame() {
+
+        document.location.reload();
+    
 }
