@@ -18,7 +18,7 @@
 
 * I tested the replayGame function and button worked, when the button was pressed the page reloaded and reset all the values.
 
-* I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, i checked this corresponded to what was being logged by the computer in the console. 
+* I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the correct word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, i checked this corresponded to what was being logged by the computer in the console. 
 
 ## Bugs
 
