@@ -14,6 +14,8 @@
 
 * I tested my incrementPlayerScore and incrementComputerScore functions, when the buttons were clicked the correct alert and console logs appeared and either the player score or computer score increased correctly in-line with the result and if it was a draw neither changed.
 
+* I tested my checkWinner function, if the user score reached 5 the "winner" paragraph reads :"Congratulations! You won 5 times! You win!", if the computer score reaches 5 first the paragraph reads: "Oh no! The computer won 5 times! You lost!"
+
 ## Bugs
 
 * When testing my runGame function I wasn't getting the expected result. The button pressed should have been compared to a random selection from the computer returning an alert, saying either "You won!", "You lost!" or "It's a draw!" depending on how they compared. But no alert would appear, I had already tested that my buttons were working correctly and the computerChoice variable was working, but they wern't comparing to each other. The Tutor team helped me to realise that the strings in my computerChoices array were capitalized, whereas the data-types on the buttons were not, so they couldn't compare.

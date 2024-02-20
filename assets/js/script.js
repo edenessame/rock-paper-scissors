@@ -1,8 +1,8 @@
 let choice
 let computerChoice
 
-let userScore = parseInt(document.getElementById("user-score"));
-let computerScore = parseInt(document.getElementById("computer-score"));
+let userScore = 0
+let computerScore = 0
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -31,28 +31,34 @@ function runGame() {
     else if (choice == "rock") {
         if (computerChoice == "scissors"){
             incrementPlayerScore();
+            userScore++
             result.innerText = "You won!";
             
         } else {
             incrementComputerScore();
+            computerScore++
             result.innerText = "You lost!";
         }
     }
     else if (choice == "paper") {
         if (computerChoice == "rock"){
             incrementPlayerScore();
+            userScore++
             result.innerText = "You won!";
         } else {
             incrementComputerScore();
+            computerScore++
             result.innerText = "You lost!";
         }
     }
     else if (choice == "scissors") {
         if (computerChoice == "paper"){
             incrementPlayerScore();
+            userScore++
             result.innerText = "You won!";
         } else {
             incrementComputerScore();
+            computerScore++
             result.innerText = "You lost!";   
         }
     }
@@ -64,9 +70,9 @@ function checkWinner() {
     let winner = document.getElementById("winner");
     
     if (userScore == 5) {
-        winner.innerText = "Congratulations! You won 5 times!";
+        winner.innerText = "Congratulations! You won 5 times! You win!";
     } else if (computerScore == 5) {
-        winner.innerText = "Oh no! The computer won 5 times!";
+        winner.innerText = "Oh no! The computer won 5 times! You lost!";
     } 
 }
 
