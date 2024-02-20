@@ -4,7 +4,8 @@ let computerChoice
 let userScore = 0
 let computerScore = 0
 
-
+let playerChoiceSpan = document.getElementById("player-choice")
+let computerChoiceSpan = document.getElementById("computer-choice")
 
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
@@ -27,9 +28,6 @@ function runGame() {
     computerChoice = computerChoices[randomChoice];
 
     let result = document.getElementById("result")
-
-    let playerChoiceSpan = document.getElementById("player-choice")
-    let computerChoiceSpan = document.getElementById("computer-choice")
 
     playerChoiceSpan.innerText = `${choice}`;
     computerChoiceSpan.innerText = `${computerChoice}`;
