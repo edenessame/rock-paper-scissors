@@ -18,10 +18,12 @@
 
 * I tested the replayGame function and button worked, when the button was pressed the page reloaded and reset all the values.
 
-* I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the correct word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, i checked this corresponded to what was being logged by the computer in the console. 
+* I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the correct word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, I checked this corresponded to what was being logged by the computer in the console. 
 
 ## Bugs
 
 * When testing my runGame function I wasn't getting the expected result. The button pressed should have been compared to a random selection from the computer returning an alert, saying either "You won!", "You lost!" or "It's a draw!" depending on how they compared. But no alert would appear, I had already tested that my buttons were working correctly and the computerChoice variable was working, but they wern't comparing to each other. The Tutor team helped me to realise that the strings in my computerChoices array were capitalized, whereas the data-types on the buttons were not, so they couldn't compare.
 
 * I was finding that my incrementPlayerScore and incrementComputerScore functions weren't working. I was getting an error message "unreachable code detected" serching on google I discovered on the stackoverflow.com website that it was because I had put them after a return statement so they wouldn't execute: https://stackoverflow.com/questions/12527060/how-can-i-fix-the-error-unreachable-code-detected
+
+* I was finding my checkWinner function wasn't working, a message was meant to be shown when either the user or the computer reached 5 wins, but nothing would show, on the frrecodecamp.com I was helped to realise that the variables I was trying to call weren't being changed. So I set them to 0 as global variables and increased the relevant one each time in the runGame function: https://forum.freecodecamp.org/t/incrementing-score-and-getting-a-message-when-reaching-a-certain-amount/673829 
