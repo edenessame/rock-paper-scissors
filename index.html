@@ -4,50 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font awesome and Google fonts links -->
+    <!-- Google fonts links -->
     <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<script src="https://kit.fontawesome.com/60710159bc.js" crossorigin="anonymous"></script>
-
+    <!-- CSS link -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Document</title>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <!-- Some code used from the Code Institute project: love maths: https://github.com/edenessame/love-maths/blob/main/index.html  -->
 <body>
     <h1 class="heading">Rock, Paper, Scissors</h1>
 
+    <!-- What the user and computer chose appear here -->
     <div class="game-area">
         <div class="selection-area">
             <span id="player-choice">Player</span>
             <span id="computer-choice">Computer</span>
         </div>
 
+        <!-- The options the user has to play -->
         <div class="options">
-            <button data-type="rock" class="btn btn-rock">Rock</button>
-            <button data-type="paper" class="btn btn-paper">Paper</button>
-            <button data-type="scissors" class="btn btn-scissors">Scissors</button>
+            <button data-type="rock" class="btn btn-rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button data-type="paper" class="btn btn-paper">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button data-type="scissors" class="btn btn-scissors">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </button>
         </div>
 
+        <!-- Shows what the user and computer played and who won -->
         <div>
             <p id="result">Let's Play!</p>
             <p id="winner">Who wins?</p>
         </div>
     </div>
 
+    <!-- Shows how many times the user and computer have won -->
     <div class="score-area">
         <p class="scores">Your Score <span id="user-score">0</span></p>
         <p class="scores">Computer Score <span id="computer-score">0</span></p>
     </div>
 
+    <!-- Reloads the page to play again -->
     <div>
         <button id="replay">Play Again?</button>
     </div>
 
 
-    
+    <!-- JavaScript link -->
     <script src="assets/js/script.js"></script>
+    
+    <!--Font awesome kit -->
+    <script src="https://kit.fontawesome.com/60710159bc.js" crossorigin="anonymous"></script>
 </body>
 </html>
