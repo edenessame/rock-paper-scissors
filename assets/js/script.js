@@ -7,6 +7,11 @@ let computerScore = 0
 let playerChoiceSpan = document.getElementById("player-choice")
 let computerChoiceSpan = document.getElementById("computer-choice")
 
+/**
+ * Gets each of the different item buttons and sets them in the variable "choice"
+ * So when "choice" is called it is correctly associated with the correct item button that was clicked
+ * When the "replay" button is clicked, calls the replayGame function
+ */
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     
@@ -22,6 +27,14 @@ document.addEventListener("DOMContentLoaded", function() {
     runGame();
 })
 
+/**
+ * Sets the computer choice randomly
+ * Compares the players choice and the computers choice and determins a winner
+ * Changes the "player-choice" and "computer-choice" spans to show what was played
+ * Updates the result paragraph with who won
+ * Updates the userScore and computerScore variables and the "scores" spans
+ * calls the checkWinner function
+ */
 function runGame() {
     let computerChoices = ["rock", "paper", "scissors"];
     let randomChoice = Math.floor(Math.random() * 3);
@@ -71,6 +84,9 @@ function runGame() {
     checkWinner();
 }
 
+/**
+ * Updates the "winner" paragraph when either the player or computer reaches 5 wins 
+ */
 function checkWinner() {
     
     let winner = document.getElementById("winner");
@@ -108,6 +124,9 @@ function incrementComputerScore() {
 
 }
 
+/**
+ * Reloads the page to play again
+ */
 function replayGame() {
 
         document.location.reload();
