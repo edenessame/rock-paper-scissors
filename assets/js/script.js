@@ -42,8 +42,8 @@ function runGame() {
 
     let result = document.getElementById("result")
 
-    playerChoiceSpan.innerText = `${choice}`;
-    computerChoiceSpan.innerText = `${computerChoice}`;
+    playerChoiceSpan.innerHTML = `${choice}`;
+    computerChoiceSpan.innerHTML = `${computerChoice}`;
 
     if (choice == computerChoice) {
         result.innerText = `You played ${choice}. Computer played ${computerChoice} It's a draw!`;
