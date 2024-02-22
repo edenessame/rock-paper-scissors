@@ -27,3 +27,9 @@ h1 {
     min-width: 100px;
     border-radius: 100px;
 }
+
+#replay{
+    font-size: 3rem;
+    min-width: 50px;
+    border-radius: 40px;
+}
