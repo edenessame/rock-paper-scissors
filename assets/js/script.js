@@ -41,7 +41,8 @@ function runGame() {
     let result = document.getElementById("result")
 
     if (choice == computerChoice) {
-        result.innerText = `You played ${choice}. Computer played ${computerChoice} It's a draw!`;
+        result.innerText = `You played ${choice}. The computer played ${computerChoice}. It's a draw!`;
+        result.style.color = "blue"
     } 
     else if (choice == "rock") {
         
@@ -49,12 +50,14 @@ function runGame() {
             
             incrementPlayerScore();
             userScore++
-            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
+            result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
+            result.style.color = "green"
             } else {
              
             incrementComputerScore();
             computerScore++
-            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
+            result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
+            result.style.color = "red"
         }
     }
     else if (choice == "paper") {
@@ -63,12 +66,14 @@ function runGame() {
             
             incrementPlayerScore();
             userScore++
-            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
+            result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
+            result.style.color = "green"
         } else {
             
             incrementComputerScore();
             computerScore++
-            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
+            result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
+            result.style.color = "red"
         }
     }
     else if (choice == "scissors") {
@@ -77,12 +82,14 @@ function runGame() {
             
             incrementPlayerScore();
             userScore++
-            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
+            result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
+            result.style.color = "green"
         } else {
             
             incrementComputerScore();
             computerScore++
-            result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
+            result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
+            result.style.color = "red"
         }
     }
     checkWinner();
@@ -97,9 +104,11 @@ function checkWinner() {
     
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!";
+        winner.style.color = "green"
         return;
     } else if (computerScore >= 5) {
         winner.innerText = "Oh no! The computer won 5 times! You lost!";
+        winner.style.color = "red"
         return;
     } 
 }
