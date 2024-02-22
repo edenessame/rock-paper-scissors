@@ -28,6 +28,8 @@ h1 {
     border-radius: 100px;
     margin: 20px;
     padding: 10px;
+    background-color: rgb(0, 123, 255);
+    color: blanchedalmond;
 }
 
 #replay{
