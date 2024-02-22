@@ -4,12 +4,6 @@ let computerChoice
 let userScore = 0
 let computerScore = 0
 
-let playerChoiceSpan = document.getElementById("player-choice")
-let computerChoiceSpan = document.getElementById("computer-choice")
-
-let rock = document.getElementById("btn-rock").innerHTML
-let paper = document.getElementById("btn-paper").innerHTML
-let scissors = document.getElementById("btn-scissors").innerHTML
 
 /**
  * Iterates through the different item buttons and sets them in the variable "choice"
@@ -46,49 +40,46 @@ function runGame() {
 
     let result = document.getElementById("result")
 
-    //playerChoiceSpan.innerHTML = `${choice}`;
-   //computerChoiceSpan.innerHTML = `${computerChoice}`;
-
     if (choice == computerChoice) {
         result.innerText = `You played ${choice}. Computer played ${computerChoice} It's a draw!`;
     } 
     else if (choice == "rock") {
-        playerChoiceSpan.innerHTML = rock;
+        
         if (computerChoice == "scissors"){
-            computerChoiceSpan.innerHTML = scissors
+            
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
             } else {
-            computerChoiceSpan.innerHTML = paper    
+             
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
         }
     }
     else if (choice == "paper") {
-        playerChoiceSpan.innerHTML = paper;
+        
         if (computerChoice == "rock"){
-            computerChoiceSpan.innerHTML = rock
+            
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
         } else {
-            computerChoiceSpan.innerHTML = scissors
+            
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
         }
     }
     else if (choice == "scissors") {
-        playerChoiceSpan.innerHTML = scissors;
+        
         if (computerChoice == "paper"){
-            computerChoiceSpan.innerHTML = paper
+            
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You won!`;
         } else {
-            computerChoiceSpan.innerHTML = rock
+            
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. Computer played ${computerChoice}. You lost!`;
