@@ -7,6 +7,18 @@ body{
     align-items: center;
 }
 
+.game-area{
+    border: 2px solid;
+    text-align: center;
+}
+
+.selection-area{
+    border: 2px solid;
+}
+
+.score-area{
+    text-align: center;
+}
 .btn{
     font-size: 8rem;
     min-width: 100px;

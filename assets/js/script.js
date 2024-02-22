@@ -12,8 +12,8 @@ let paper = document.getElementById("btn-paper").innerHTML
 let scissors = document.getElementById("btn-scissors").innerHTML
 
 /**
- * Gets each of the different item buttons and sets them in the variable "choice"
- * So when "choice" is called it is correctly associated with the correct item button that was clicked
+ * Iterates through the different item buttons and sets them in the variable "choice"
+ * So when "choice" is called it is associated with the correct item button that was clicked
  * When the "replay" button is clicked, calls the replayGame function
  */
 document.addEventListener("DOMContentLoaded", function() {
