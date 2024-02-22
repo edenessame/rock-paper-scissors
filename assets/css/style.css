@@ -7,22 +7,21 @@ body{
     align-items: center;
 }
 
-.game-area{
-    border: 2px solid;
-    text-align: center;
+h1 {
+    font-size: 3rem;
+    text-decoration-line: underline;
 }
 
-.selection-area{
-    font-size: 4rem;
+.game-area{
     border: 2px solid;
-    min-height: 20px;
-    min-width: 100px;
-
+    border-radius: 25px;
+    text-align: center;
 }
 
 .score-area{
     text-align: center;
 }
+
 .btn{
     font-size: 8rem;
     min-width: 100px;
