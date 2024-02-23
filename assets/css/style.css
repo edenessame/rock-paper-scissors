@@ -15,7 +15,7 @@ h1 {
 
 .game-area{
     border: 2px solid;
-    min-width: 650px;
+    width: 40%;
     border-radius: 25px;
     text-align: center;
     background-color: #67c0f7;
@@ -34,7 +34,7 @@ h1 {
 
 .btn{
     font-size: 8rem;
-    min-width: 100px;
+    min-width: fit-content;
     border-radius: 100px;
     margin: 20px;
     padding: 10px;
@@ -45,7 +45,7 @@ h1 {
 #replay{
     font-size: 1.5rem;
     font-weight: 700;
-    min-width: 50px;
+    min-width: fit-content;
     border-radius: 40px;
     padding: 20px;
     background-color: #67c0f7;
@@ -76,4 +76,19 @@ h1 {
 
 #rules i {
     color: #F9A12EFF;
+}
+
+/* Media query mobile phones */
+@media only screen and (max-width: 600px){
+    h1 {
+        text-align: center;
+    }
+    .game-area {
+        width: fit-content;
+    }
+    .btn{
+        font-size: 4rem;
+        min-width: fit-content;
+    }
+
 }
