@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
 /**
  * Sets the computer choice randomly
  * Compares the players choice and the computers choice and determins a winner
- * Changes the "player-choice" and "computer-choice" spans to show what was played
  * Updates the result paragraph with who won
  * Updates the userScore and computerScore variables and the "scores" spans
  * calls the checkWinner function
@@ -45,7 +44,6 @@ function runGame() {
         result.style.color = "blue"
     } 
     else if (choice == "rock") {
-        
         if (computerChoice == "scissors"){
             incrementPlayerScore();
             userScore++
