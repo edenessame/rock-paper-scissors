@@ -15,6 +15,7 @@ h1 {
 
 .game-area{
     border: 2px solid;
+    min-width: 650px;
     border-radius: 25px;
     text-align: center;
     background-color: #67c0f7;
