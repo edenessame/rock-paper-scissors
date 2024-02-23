@@ -47,13 +47,11 @@ function runGame() {
     else if (choice == "rock") {
         
         if (computerChoice == "scissors"){
-            
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
             result.style.color = "green"
             } else {
-             
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
@@ -61,15 +59,12 @@ function runGame() {
         }
     }
     else if (choice == "paper") {
-        
         if (computerChoice == "rock"){
-            
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
             result.style.color = "green"
         } else {
-            
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
@@ -77,15 +72,12 @@ function runGame() {
         }
     }
     else if (choice == "scissors") {
-        
         if (computerChoice == "paper"){
-            
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
             result.style.color = "green"
         } else {
-            
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;

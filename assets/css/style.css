@@ -1,3 +1,4 @@
+/* Main styles */
 body{
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
@@ -8,28 +9,19 @@ body{
     background-color: #a4d8f8;
 }
 
+/* Heading */
 h1 {
     font-size: 3rem;
     text-decoration-line: underline;
 }
 
+/* Main game play area */
 .game-area{
     border: 2px solid;
     width: 40%;
     border-radius: 25px;
     text-align: center;
     background-color: #67c0f7;
-}
-
-.score-area{
-    text-align: center;
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: row;
-}
-
-.scores:first-child{
-    margin-right: 80px;
 }
 
 .btn{
@@ -42,6 +34,28 @@ h1 {
     color: #F9A12EFF;
 }
 
+#result {
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+#winner{
+    font-size: 1.5rem;
+}
+
+/* Player and computer scores */
+.score-area{
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.scores:first-child{
+    margin-right: 80px;
+}
+
+/* Replay button */
 #replay{
     font-size: 1.5rem;
     font-weight: 700;
@@ -51,17 +65,7 @@ h1 {
     background-color: #67c0f7;
 }
 
-#result {
-    font-size: 1.3rem;
-    padding: 0 10px;
-
-}
-
-#winner{
-    font-size: 1.5rem;
-
-}
-
+/* Footer */
 #rules{
     display: flex;
     justify-content: space-evenly;
@@ -80,10 +84,13 @@ h1 {
 
 /* Media queries for screens smaller than 600px */
 @media only screen and (max-width: 600px){
+    /* Heading */
     h1 {
         text-align: center;
         font-size: 2rem;
     }
+
+    /* Main game play area*/
     .game-area {
         width: fit-content;
     }
@@ -92,24 +99,27 @@ h1 {
         width: fit-content;
         margin: 10px;
     }
+
+    /* Footer */
     #rules{
         text-align: center;
         display: flex;
         flex-direction: column;
     }
-
     #rules li {
         font-size: 1.2rem;
         padding: 5px 0;
     }
-
 }
 
 /* Media queries for screens larger than 600px */
 @media only screen and (min-width: 600px){
+    /* Main game play area */
     .game-area {
         width: fit-content;
     }
+
+    /* Footer */
     #rules li {
         font-size: 1.1rem;
         padding-right: 10px;
@@ -118,6 +128,7 @@ h1 {
 
 /* Media queries for screens larger than 1024px */
 @media only screen and (min-width: 1024px){
+    /* Main game play area */
     .game-area {
         width: fit-content;
     }
