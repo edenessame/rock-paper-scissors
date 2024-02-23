@@ -44,6 +44,7 @@ h1 {
 
 #replay{
     font-size: 1.5rem;
+    font-weight: 700;
     min-width: 50px;
     border-radius: 40px;
     padding: 20px;
@@ -59,4 +60,16 @@ h1 {
 #winner{
     font-size: 1.5rem;
 
+}
+
+#rules{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#rules li {
+    font-size: 1.3rem;
+    padding-right: 5px;
 }
