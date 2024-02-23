@@ -71,24 +71,54 @@ h1 {
 
 #rules li {
     font-size: 1.3rem;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 
 #rules i {
     color: #F9A12EFF;
 }
 
-/* Media query mobile phones */
+/* Media queries for screens smaller than 600px */
 @media only screen and (max-width: 600px){
     h1 {
         text-align: center;
+        font-size: 2rem;
     }
     .game-area {
         width: fit-content;
     }
     .btn{
-        font-size: 4rem;
-        min-width: fit-content;
+        font-size: 3rem;
+        width: fit-content;
+        margin: 10px;
+    }
+    #rules{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
+    #rules li {
+        font-size: 1.2rem;
+        padding: 5px 0;
+    }
+
+}
+
+/* Media queries for screens larger than 600px */
+@media only screen and (min-width: 600px){
+    .game-area {
+        width: fit-content;
+    }
+    #rules li {
+        font-size: 1.1rem;
+        padding-right: 10px;
+    }
+}
+
+/* Media queries for screens larger than 1024px */
+@media only screen and (min-width: 1024px){
+    .game-area {
+        width: fit-content;
+    }
 }
