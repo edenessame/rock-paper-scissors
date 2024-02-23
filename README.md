@@ -35,6 +35,7 @@
 ### Validator testing
 
 * **HTML** 
+  * No errors were returned when passing through the official [W3C Validator](./readme-assets/html_validator_RPS.png)
 
 * **CSS**
 
