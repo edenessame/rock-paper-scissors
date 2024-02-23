@@ -38,6 +38,7 @@
   * No errors were returned when passing through the official [W3C Validator](./readme-assets/html_validator_RPS.png)
 
 * **CSS**
+  * No errors were found when passing through the official [(Jigsaw) Validator](./readme-assets/CSS_validator_RPS.png)
 
 * **JavaScript**
   
