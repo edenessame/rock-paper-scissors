@@ -38,7 +38,7 @@
 
 * Help understanding and implementing HTML, CSS and JavaScript came from the Code Institute course.
 
-* Help in how to structure and layout a README file from the Code Institutes [sample README](https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file)
+* Help in how to structure and layout a README file came from the Code Institutes [sample README](https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file)
 
 * The favicon used came from [favicon.io](https://favicon.io/emoji-favicons/oncoming-fist).
 
