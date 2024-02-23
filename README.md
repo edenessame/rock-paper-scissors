@@ -31,3 +31,24 @@
 * I was finding that my incrementPlayerScore and incrementComputerScore functions weren't working. I was getting an error message "unreachable code detected" serching on google I discovered on the stackoverflow.com website that it was because I had put them after a return statement so they wouldn't execute: https://stackoverflow.com/questions/12527060/how-can-i-fix-the-error-unreachable-code-detected
 
 * I was finding my checkWinner function wasn't working, a message was meant to be shown when either the user or the computer reached 5 wins, but nothing would show, on the frrecodecamp.com I was helped to realise that the variables I was trying to call weren't being changed. So I set them to 0 as global variables and increased the relevant one each time in the runGame function: https://forum.freecodecamp.org/t/incrementing-score-and-getting-a-message-when-reaching-a-certain-amount/673829 
+
+## Credits
+
+### Content
+
+* Help understanding and implementing HTML, CSS and JavaScript came from the Code Institute course.
+
+* Help in how to structure and layout a README file from the Code Institutes [sample README](https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file)
+
+* The favicon used came from [favicon.io](https://favicon.io/emoji-favicons/oncoming-fist).
+
+* The icons used for the buttons and footer came from [fontawesome.com](https://fontawesome.com/).
+
+* I used the code institute [Love maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/) project to help guide me.
+
+* Further help and understanding was sought from [W3schools](https://www.w3schools.com/html/default.asp) the [freecodecamp](https://forum.freecodecamp.org/) and [stackoverflow](https://stackoverflow.com/).
+
+* The Code Institute tutor support team for helping guide me.
+
+* My mentor, Medale Oluwafemi, for his invaluable knowledge and guidance.
+
