@@ -1,8 +1,8 @@
-let choice
-let computerChoice
+let choice;
+let computerChoice;
 
-let userScore = 0
-let computerScore = 0
+let userScore = 0;
+let computerScore = 0;
 
 
 /**
@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
         button.addEventListener("click", function() {
             choice = this.getAttribute("data-type");
             runGame();
-        })
+        });
     }
 
     document.getElementById("replay").addEventListener("click", replayGame);
 
     runGame();
-})
+});
 
 /**
  * Sets the computer choice randomly
@@ -37,49 +37,49 @@ function runGame() {
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
 
-    let result = document.getElementById("result")
+    let result = document.getElementById("result");
 
     if (choice == computerChoice) {
         result.innerText = `You played ${choice}. The computer played ${computerChoice}. It's a draw!`;
-        result.style.color = "blue"
+        result.style.color = "blue";
     } 
     else if (choice == "rock") {
         if (computerChoice == "scissors"){
             incrementPlayerScore();
-            userScore++
+            userScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
-            result.style.color = "#008200"
+            result.style.color = "#008200";
             } else {
             incrementComputerScore();
-            computerScore++
+            computerScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "#960018"
+            result.style.color = "#960018";
         }
     }
     else if (choice == "paper") {
         if (computerChoice == "rock"){
             incrementPlayerScore();
-            userScore++
+            userScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
-            result.style.color = "#008200"
+            result.style.color = "#008200";
         } else {
             incrementComputerScore();
-            computerScore++
+            computerScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "#960018"
+            result.style.color = "#960018";
         }
     }
     else if (choice == "scissors") {
         if (computerChoice == "paper"){
             incrementPlayerScore();
-            userScore++
+            userScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
-            result.style.color = "#008200"
+            result.style.color = "#008200";
         } else {
             incrementComputerScore();
-            computerScore++
+            computerScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "#960018"
+            result.style.color = "#960018";
         }
     }
     checkWinner();
@@ -94,11 +94,11 @@ function checkWinner() {
     
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!";
-        winner.style.color = "#40a829"
+        winner.style.color = "#40a829";
         return;
     } else if (computerScore >= 5) {
         winner.innerText = "Oh no! The computer won 5 times! You lost!";
-        winner.style.color = "#FF0800"
+        winner.style.color = "#FF0800";
         return;
     } 
 }
