@@ -39,7 +39,7 @@ h1 {
     margin: 20px;
     padding: 10px;
     background-color: #2f2fed;
-    color: blanchedalmond;
+    color: #F9A12EFF;
 }
 
 #replay{
@@ -72,4 +72,8 @@ h1 {
 #rules li {
     font-size: 1.3rem;
     padding-right: 5px;
+}
+
+#rules i {
+    color: #F9A12EFF;
 }
