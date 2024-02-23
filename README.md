@@ -32,6 +32,16 @@
 
 * I was finding my checkWinner function wasn't working, a message was meant to be shown when either the user or the computer reached 5 wins, but nothing would show, on the frrecodecamp.com I was helped to realise that the variables I was trying to call weren't being changed. So I set them to 0 as global variables and increased the relevant one each time in the runGame function: https://forum.freecodecamp.org/t/incrementing-score-and-getting-a-message-when-reaching-a-certain-amount/673829 
 
+## Deployment
+
+* The site was deployed to Git Hub pages using the following steps:
+  * In the Github repository, click the settings tab.
+  * Under "General" in the subsection "Code and automation" click "Pages".
+  * In the "Build and deployment" section, under "Source" select "Deploy from a branch" from the dropdown menu. 
+  * Under "Branch" select "Main" from the dropdown menu and save.
+  * The link to the website can be found at the top of the page.
+  * The deployed website will update automatically with new commits to the master branch. 
+
 ## Credits
 
 ### Content
