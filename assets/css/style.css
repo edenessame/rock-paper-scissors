@@ -130,6 +130,6 @@ h1 {
 @media only screen and (min-width: 1024px){
     /* Main game play area */
     .game-area {
-        width: fit-content;
+        width: 700px;
     }
 }
