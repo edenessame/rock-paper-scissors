@@ -24,6 +24,7 @@ h1 {
     background-color: #67c0f7;
 }
 
+/* Icon buttons */
 .btn{
     font-size: 8rem;
     min-width: fit-content;
@@ -34,11 +35,13 @@ h1 {
     color: #F9A12EFF;
 }
 
+/* Round result message */
 #result {
     font-size: 1.3rem;
     padding: 0 10px;
 }
 
+/* Overall winner message */
 #winner{
     font-size: 1.5rem;
 }
