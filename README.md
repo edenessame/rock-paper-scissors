@@ -20,6 +20,10 @@
 
 * I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the correct word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, I checked this corresponded to what was being logged by the computer in the console. 
 
+* I changeed the colours of the winner and result text depending on the out come, it should be green for a win, red for a loss and blue for a draw, I tested this worked and made sure there was sufficient contrast so that the words were visible.
+
+* I tested opening the site on differect screen sizes using google DevTools and added media queries to adjust and alter certain aspects so that it looks nice on the different screen sizes.
+
 ## Bugs
 
 * When testing my runGame function I wasn't getting the expected result. The button pressed should have been compared to a random selection from the computer returning an alert, saying either "You won!", "You lost!" or "It's a draw!" depending on how they compared. But no alert would appear, I had already tested that my buttons were working correctly and the computerChoice variable was working, but they wern't comparing to each other. The Tutor team helped me to realise that the strings in my computerChoices array were capitalized, whereas the data-types on the buttons were not, so they couldn't compare.

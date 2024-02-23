@@ -50,12 +50,12 @@ function runGame() {
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
-            result.style.color = "green"
+            result.style.color = "#008200"
             } else {
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "red"
+            result.style.color = "#960018"
         }
     }
     else if (choice == "paper") {
@@ -63,12 +63,12 @@ function runGame() {
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
-            result.style.color = "green"
+            result.style.color = "#008200"
         } else {
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "red"
+            result.style.color = "#960018"
         }
     }
     else if (choice == "scissors") {
@@ -76,12 +76,12 @@ function runGame() {
             incrementPlayerScore();
             userScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You won!`;
-            result.style.color = "green"
+            result.style.color = "#008200"
         } else {
             incrementComputerScore();
             computerScore++
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "red"
+            result.style.color = "#960018"
         }
     }
     checkWinner();
@@ -96,11 +96,11 @@ function checkWinner() {
     
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!";
-        winner.style.color = "green"
+        winner.style.color = "#40a829"
         return;
     } else if (computerScore >= 5) {
         winner.innerText = "Oh no! The computer won 5 times! You lost!";
-        winner.style.color = "red"
+        winner.style.color = "#FF0800"
         return;
     } 
 }
