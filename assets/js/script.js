@@ -95,8 +95,8 @@ function checkWinner() {
     
     let winner = document.getElementById("winner");
 
-    const button = document.getElementById("btn");
-    button.disabled = false;
+    let button = document.getElementsByClassName("btn");
+    
     
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!";
