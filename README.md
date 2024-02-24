@@ -24,7 +24,7 @@
 
 * When the user hovers over the buttons they should change colour and the mouse turn to a pointer, so the user can see where they will click, I tested this worked correctly in the browser and it did.
 
-
+* When the score of either the player or computer reaches 5 the buttons are disabled and no longer clickable, I tested this worked correctly in the browser and it did.
 
 * I tested opening the site on differect screen sizes using google DevTools and added media queries to adjust and alter certain aspects so that it looks nice on the different screen sizes.
 
