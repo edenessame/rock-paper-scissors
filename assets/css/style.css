@@ -51,6 +51,14 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* How to win div */
+
+.how-to-win{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 10px;
+}
+
 /* Player and computer scores */
 .score-area{
     text-align: center;
