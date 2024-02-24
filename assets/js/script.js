@@ -5,6 +5,7 @@ let userScore = 0;
 let computerScore = 0;
 
 
+
 /**
  * Iterates through the different item buttons and sets them in the variable "choice"
  * So when "choice" is called it is associated with the correct item button that was clicked
@@ -93,14 +94,19 @@ function runGame() {
 function checkWinner() {
     
     let winner = document.getElementById("winner");
+
+    const button = document.getElementById("btn");
+    button.disabled = false;
     
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!";
         winner.style.color = "#40a829";
+        button.disabled = true;
         return;
     } else if (computerScore >= 5) {
         winner.innerText = "Oh no! The computer won 5 times! You lost!";
         winner.style.color = "#FF0800";
+        button.disabled = true;
         return;
     } 
 }
