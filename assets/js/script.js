@@ -96,12 +96,12 @@ function checkWinner() {
     let winner = document.getElementById("winner");
 
     if (userScore >= 5) {
-        winner.innerText = "Congratulations! You won 5 times! You win!";
+        winner.innerText = "Congratulations! You won 5 times! You win!\n Press the replay button to play again!";
         winner.style.color = "#40a829";
         disablebtn()
         return;
     } else if (computerScore >= 5) {
-        winner.innerText = "Oh no! The computer won 5 times! You lost!";
+        winner.innerText = "Oh no! The computer won 5 times! You lost!\n Press the replay button to play again!";
         winner.style.color = "#FF0800";
         disablebtn()
         return;
