@@ -4,6 +4,9 @@ let computerChoice;
 let userScore = 0;
 let computerScore = 0;
 
+const result = document.getElementById("result");
+const winner = document.getElementById("winner");
+
 /**
  * Iterates through the different item buttons and sets them in the variable "choice"
  * So when "choice" is called it is associated with the correct item button that was clicked
@@ -37,9 +40,7 @@ function runGame() {
     let computerChoices = ["rock", "paper", "scissors"];
     let randomChoice = Math.floor(Math.random() * 3);
     computerChoice = computerChoices[randomChoice];
-
-    let result = document.getElementById("result");
-
+    
     if (choice == computerChoice) {
         result.innerText = `You played ${choice}. The computer played ${computerChoice}. It's a draw!`;
         result.style.color = "blue";
@@ -90,9 +91,6 @@ function runGame() {
  * Updates the "winner" paragraph when either the player or computer reaches 5 wins 
  */
 function checkWinner() {
-    
-    const winner = document.getElementById("winner");
-
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!\n Press the replay button to play again!";
         winner.style.color = "#40a829";
@@ -112,10 +110,8 @@ function checkWinner() {
  * https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/03-displaying-the-question-and-answer/04-updating-the-scores/assets/js/script.js
  */
 function incrementPlayerScore() {
-
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
-
 }
 
 /**
@@ -124,13 +120,12 @@ function incrementPlayerScore() {
  * https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/03-displaying-the-question-and-answer/04-updating-the-scores/assets/js/script.js
  */
 function incrementComputerScore() {
-    
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
 }
 
 /**
- * Reloads the page to play again
+ * Resets all the variables to play the game again
  */
 function replayGame() {
     
@@ -139,9 +134,10 @@ function replayGame() {
 
     document.getElementById("result").innerText = "Let's Play!";
     document.getElementById("winner").innerText = "Who will win?";
-
+    
     userScore = 0;
     computerScore = 0;
+
     enablebtn() 
 
     winner.style.color = "black";
@@ -149,14 +145,12 @@ function replayGame() {
 }
 
 function disablebtn() {
-    
     document.getElementById("btn-rock").disabled = true; 
     document.getElementById("btn-paper").disabled = true; 
     document.getElementById("btn-scissors").disabled = true; 
 }
 
 function enablebtn() {
-    
     document.getElementById("btn-rock").disabled = false; 
     document.getElementById("btn-paper").disabled = false; 
     document.getElementById("btn-scissors").disabled = false; 
