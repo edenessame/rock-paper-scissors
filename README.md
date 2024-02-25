@@ -1,15 +1,15 @@
 # Rock, Paper, Scissors
 
-## Code Institute - Portfolio Project 2 - JavaScript Essentials
-
 Rock, Paper, Scissors is a hand game played between two people where they each choose an "item" represented by a hand shape:
 a closed fist is a rock, an open hand is paper and just the index and middle finger extended in a V shape are scissors.
 
-In this game the player plays against the computer, the player makes their selection by clicking on one of the three options and the computer makes a random responce, also from one of the three options and the result is displayed on the screen.
+In this game the player plays against the computer, the player makes their selection by clicking on one of the three options and the computer makes a random responce also from one of the three options and the result is displayed on the screen.
 
 The winner is determined by the rules that rock beats scissors (by breaking them), scissors beats paper (by cutting it) and paper beats rock (by covering it).
 
 The overall winner of this game is the first to win five rounds.
+
+![The websites appearance on different screen sizes](./readme-assets/RPS_different_screens.png)
 
 ## Testing
 
