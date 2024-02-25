@@ -2,6 +2,15 @@
 
 ## Code Institute - Portfolio Project 2 - JavaScript Essentials
 
+Rock, Paper, Scissors is a hand game played between two people where they each choose an "item" represented by a hand shape:
+a closed fist is a rock, an open hand is paper and just the index and middle finger extended in a V shape are scissors.
+
+In this game the player plays against the computer, the player makes their selection by clicking on one of the three options and the computer makes a random responce, also from one of the three options and the result is displayed on the screen.
+
+The winner is determined by the rules that rock beats scissors (by breaking them), scissors beats paper (by cutting it) and paper beats rock (by covering it).
+
+The overall winner of this game is the first to win five rounds.
+
 ## Testing
 
 * After setting up the HTML, CSS and JavaScript files I checked they were linked by adding a body colour placeholder to the css file and a console.log message to the javascript file. Then opening the preview browser, typing: python3 -m http.server into the terminal. In the preview browser I could see the page was the correct colour and by inspecting the page using DevTools I could see that the message had appeared in the console.
@@ -22,7 +31,7 @@
 
 * When the user hovers over the buttons they should change colour and the mouse turn to a pointer, so the user can see where they will click, I tested this worked correctly in the browser and it did.
 
-* When the score of either the player or computer reaches 5 the buttons are disabled and no longer clickable, I tested this worked correctly in the browser and it did.
+* I tested the disablebtn and enablebtn functions, when the score of either the player or computer reaches 5, the icon buttons are disabled and no longer clickable, then reset when the "replay" button is pressed. I tested this worked correctly in the browser and it did.
 
 * I tested the replayGame function and button worked, when the button was pressed it reset all the values.
 
