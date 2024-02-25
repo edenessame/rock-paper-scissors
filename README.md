@@ -16,8 +16,6 @@
 
 * I tested my checkWinner function, if the user score reached 5 the "winner" paragraph reads :"Congratulations! You won 5 times! You win!", if the computer score reaches 5 first the paragraph reads: "Oh no! The computer won 5 times! You lost!"
 
-* I tested the replayGame function and button worked, when the button was pressed the page reloaded and reset all the values.
-
 * I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the correct word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, I checked this corresponded to what was being logged by the computer in the console. 
 
 * I changed the colours of the winner and result text depending on the out come, it should be green for a win, red for a loss and blue for a draw, I tested this worked and made sure there was sufficient contrast so that the words were visible.
@@ -25,6 +23,8 @@
 * When the user hovers over the buttons they should change colour and the mouse turn to a pointer, so the user can see where they will click, I tested this worked correctly in the browser and it did.
 
 * When the score of either the player or computer reaches 5 the buttons are disabled and no longer clickable, I tested this worked correctly in the browser and it did.
+
+* I tested the replayGame function and button worked, when the button was pressed it reset all the values.
 
 * I tested opening the site on differect screen sizes using google DevTools and added media queries to adjust and alter certain aspects so that it looks nice on the different screen sizes.
 
@@ -45,6 +45,7 @@
   * No errors were found when passing through the official [(Jigsaw) Validator](./readme-assets/CSS_validator_RPS.png)
 
 * **JavaScript**
+  * When passing through the JavaScript validator JShint I got a warning message: 
   
 * **Accessibility**   
   * I confirmed that the aria attributes match their roles, have valid values and are not missspelled and that the colours and fonts used are easy to read and accessible by running it through [lighthouse devtools](./readme-assets/Lighthouse_RPS.png)
