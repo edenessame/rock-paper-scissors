@@ -89,6 +89,8 @@ The overall winner of this game is the first to win five rounds.
 
 * Further help and understanding was sought from [W3schools](https://www.w3schools.com/html/default.asp) the [freecodecamp](https://forum.freecodecamp.org/) and [stackoverflow](https://stackoverflow.com/).
 
+* The responsive appearance on different screen sizes in the readme was obtained from [Am I responsive](https://ui.dev/amiresponsive).
+
 * The Code Institute tutor support team for helping guide me.
 
 * My mentor, Medale Oluwafemi, for his invaluable knowledge and guidance.
