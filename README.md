@@ -45,7 +45,7 @@
   * No errors were found when passing through the official [(Jigsaw) Validator](./readme-assets/CSS_validator_RPS.png)
 
 * **JavaScript**
-  * When passing through the JavaScript validator JShint I got a warning message: 
+  * When passing through the JavaScript validator JShint, I got a warning message: Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. I had followed the method used in the love maths tutorial, which also gave this warning when passed through [JShint](./readme-assets/JShint-lovemaths.png). I asked one of the tutor team about this and they assured me that it's nothing that will affect my project, so I could leave it as it is. [No warnings were flagged otherwise](./readme-assets/JShint_RPS.png).
   
 * **Accessibility**   
   * I confirmed that the aria attributes match their roles, have valid values and are not missspelled and that the colours and fonts used are easy to read and accessible by running it through [lighthouse devtools](./readme-assets/Lighthouse_RPS.png)
