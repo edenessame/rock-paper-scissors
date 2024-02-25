@@ -1,9 +1,7 @@
 let choice;
 let computerChoice;
-
 let userScore = 0;
 let computerScore = 0;
-
 const result = document.getElementById("result");
 const winner = document.getElementById("winner");
 
@@ -128,18 +126,13 @@ function incrementComputerScore() {
  * Resets all the variables to play the game again
  */
 function replayGame() {
-    
-    document.getElementById("user-score").innerText = 0;
-    document.getElementById("computer-score").innerText = 0;
-
-    document.getElementById("result").innerText = "Let's Play!";
-    document.getElementById("winner").innerText = "Who will win?";
-    
     userScore = 0;
     computerScore = 0;
-
+    document.getElementById("user-score").innerText = 0;
+    document.getElementById("computer-score").innerText = 0;
+    document.getElementById("result").innerText = "Let's Play!";
+    document.getElementById("winner").innerText = "Who will win?";
     enablebtn() 
-
     winner.style.color = "black";
     result.style.color = "black";
 }
