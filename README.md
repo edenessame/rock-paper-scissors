@@ -26,7 +26,11 @@
 
 * I tested the replayGame function and button worked, when the button was pressed it reset all the values.
 
-* I tested opening the site on differect screen sizes using google DevTools and added media queries to adjust and alter certain aspects so that it looks nice on the different screen sizes.
+* I tested the site on Google Chrome, Firefox and Microsoft Edge using an Asus and Hewlett Packard laptop and Google Chrome and Microsoft Edge on a Google Pixle phone and it works in different browsers.
+
+* I tested the site is responsive on differect screen sizes using google DevTools.
+
+* I confirmed all the content was readable and easy to understand.
 
 ### Bugs
 
