@@ -92,12 +92,12 @@ function checkWinner() {
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!\n Press the replay button to play again!";
         winner.style.color = "#40a829";
-        disablebtn()
+        disablebtn();
         return;
     } else if (computerScore >= 5) {
         winner.innerText = "Oh no! The computer won 5 times! You lost!\n Press the replay button to play again!";
         winner.style.color = "#FF0800";
-        disablebtn()
+        disablebtn();
         return;
     } 
 }
@@ -132,7 +132,7 @@ function replayGame() {
     document.getElementById("computer-score").innerText = 0;
     document.getElementById("result").innerText = "Let's Play!";
     document.getElementById("winner").innerText = "Who will win?";
-    enablebtn() 
+    enablebtn(); 
     winner.style.color = "black";
     result.style.color = "black";
 }
