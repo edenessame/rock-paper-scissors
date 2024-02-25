@@ -47,9 +47,21 @@
         </div>
     </div>
 
-    <div class="how-to-play">
-        <h3>How to play</h3>
-        <ul>
+    <!-- Shows how many times the user and computer have won -->
+    <div class="score-area">
+        <p class="scores">Your Score <span id="user-score">0</span></p>
+        <p class="scores">Computer Score <span id="computer-score">0</span></p>
+    </div>
+
+    <!-- Reloads the page to play again -->
+    <div>
+        <button id="replay">Replay</button>
+    </div>
+
+    <div>
+        <!-- Instructions to play -->
+        <h3 class="headings">How to Play</h3>
+        <ul id="how-to-play">
             <li>
                 Click on a hand to select a move.
             </li>
@@ -66,27 +78,23 @@
                 Click the replay button to play again.
             </li>
         </ul>
-    </div>
 
-    <!-- Shows how many times the user and computer have won -->
-    <div class="score-area">
-        <p class="scores">Your Score <span id="user-score">0</span></p>
-        <p class="scores">Computer Score <span id="computer-score">0</span></p>
-    </div>
-
-    <!-- Reloads the page to play again -->
-    <div>
-        <button id="replay">Replay</button>
-    </div>
-
-    <footer>
+        <!-- The game rules -->
+        <h3 class="headings">The Rules</h3>
         <ul id="rules">
-            <li>Rules:</li> 
-            <li>Rock <i class="fa-solid fa-hand-back-fist"></i> beats Scissors <i class="fa-solid fa-hand-scissors"></i></li>
-            <li>Scissors <i class="fa-solid fa-hand-scissors"></i> beats Paper <i class="fa-solid fa-hand"></i></li>
-            <li>Paper <i class="fa-solid fa-hand"></i> beats Rock <i class="fa-solid fa-hand-back-fist"></i></li>
+            <li>
+                Rock <i class="fa-solid fa-hand-back-fist"></i> beats Scissors <i class="fa-solid fa-hand-scissors"></i>
+            </li>
+            <li>
+                Scissors <i class="fa-solid fa-hand-scissors"></i> beats Paper <i class="fa-solid fa-hand"></i>
+            </li>
+            <li>
+                Paper <i class="fa-solid fa-hand"></i> beats Rock <i class="fa-solid fa-hand-back-fist"></i>
+            </li>
         </ul>
-    </footer>
+    </div>
+
+    
 
     <!-- JavaScript link -->
     <script src="assets/js/script.js"></script>

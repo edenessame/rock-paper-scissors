@@ -51,14 +51,6 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* How to win div */
-
-.how-to-play{
-    text-align: center;
-    font-size: 1.3rem;
-    padding-top: 10px;
-}
-
 /* Player and computer scores */
 .score-area{
     text-align: center;
@@ -86,17 +78,26 @@ h1 {
     background-color: rgb(92, 255, 47)
 }
 
-/* Footer */
-#rules{
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 10px;
+/* Instructions */
+
+.headings{
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
-#rules li {
+li{
     font-size: 1.3rem;
-    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+#how-to-play{
+    list-style-type: none;
+}
+#rules{
+    list-style-type: none;
+    text-align: center;
+    padding-right: 30px;
 }
 
 #rules i {
@@ -121,16 +122,6 @@ h1 {
         margin: 10px;
     }
 
-    /* Footer */
-    #rules{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
-    #rules li {
-        font-size: 1.2rem;
-        padding: 5px 0;
-    }
 }
 
 /* Media queries for screens larger than 600px */
@@ -139,12 +130,6 @@ h1 {
     .game-area {
         width: fit-content;
     }
-
-    /* Footer */
-    #rules li {
-        font-size: 1.1rem;
-        padding-right: 10px;
-    }
 }
 
 /* Media queries for screens larger than 1024px */
@@ -152,10 +137,5 @@ h1 {
     /* Main game play area */
     .game-area {
         width: 700px;
-    }
-    /* Footer */
-    #rules li {
-        font-size: 1.5rem;
-        padding-right: 20px;
     }
 }

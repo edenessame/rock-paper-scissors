@@ -127,7 +127,6 @@ function incrementComputerScore() {
     
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
-
 }
 
 /**
@@ -144,6 +143,9 @@ function replayGame() {
     userScore = 0;
     computerScore = 0;
     enablebtn() 
+
+    winner.style.color = "black";
+    result.style.color = "black";
 }
 
 function disablebtn() {
