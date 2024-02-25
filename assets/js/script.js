@@ -4,8 +4,6 @@ let computerChoice;
 let userScore = 0;
 let computerScore = 0;
 
-
-
 /**
  * Iterates through the different item buttons and sets them in the variable "choice"
  * So when "choice" is called it is associated with the correct item button that was clicked
@@ -93,7 +91,7 @@ function runGame() {
  */
 function checkWinner() {
     
-    let winner = document.getElementById("winner");
+    const winner = document.getElementById("winner");
 
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!\n Press the replay button to play again!";
@@ -136,9 +134,16 @@ function incrementComputerScore() {
  * Reloads the page to play again
  */
 function replayGame() {
-
-    document.location.reload();
     
+    document.getElementById("user-score").innerText = 0;
+    document.getElementById("computer-score").innerText = 0;
+
+    document.getElementById("result").innerText = "Let's Play!";
+    document.getElementById("winner").innerText = "Who will win?";
+
+    userScore = 0;
+    computerScore = 0;
+    enablebtn() 
 }
 
 function disablebtn() {
