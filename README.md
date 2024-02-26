@@ -46,7 +46,23 @@ I used a simple layout that isn't overcrowded and is easy to understand:
   * This is followed by the "Replay" button which is large and also a different colour, so it stands out and is easy to see.
   * Finally the rules and instructions are at the bottom, so they are not intrusive to anyone who knows how to play, but are easy to find for anyone who doesn't.
 
- 
+### Surface
+
+I used a mostly monochramatic colour scheme for the site with different shades of blue, that I think complement each other, with the background the lightest, so it's not distracting with the buttons the darkest, so they draw the focus. For the hand icons I chose yellow as it is an unspecific hand colour. 
+
+When the icon buttons are hovered over, the colour changes to the main backround colour, so its very clear what the user is going to click on and it stands out against the game area background that the buttons are on.
+
+When the user wins a round, or the whole game, I used green text as this usually connotes winning and a positive result.
+
+When the user loses a round, or the whole game, I used red text as this usually connotes losing and a negative result.
+
+For a draw I used blue as it was my main colour scheme it seemed quite neutral.
+
+I made sure they were all easily readable on top of the background.
+
+The majority of the text is black, because its clear and easy to read.
+
+When the user mouses over the "Replay" button it turns to a nice shade of green, to connote a positive out come to pressing the button. Green as if to imply go and play the game again, rather than something like red to imply stop and ending game.
   
 ## Technologies
 
