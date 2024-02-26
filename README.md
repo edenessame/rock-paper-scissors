@@ -13,9 +13,13 @@ The overall winner of this game is the first to win five rounds.
 
 ## Features
 
+### Heading
+
 ![The website heading](./readme-assets/Heading_RPS.png)
 
 The heading is clear, easy to read and tells the user the name of the game.
+
+### Main game area
 
 ![The main game play area](./readme-assets/RPS_Game_area.png)
 
@@ -24,6 +28,13 @@ The main game area is simple and easy to understand, providing the three play bu
 ![The buttons changing colour when hovered over](./readme-assets/RPS_hover.png)
 
 When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select.
+
+After each round the "Let's Play!" text updates saying what the user played, what the computer played and who won. If the user won, the text is green, if the computer won, the text is red and if it's a draw the text is blue.
+
+![Result text if the user won](./readme-assets/RPS_you_won.png)
+![Result text if the computer won](./readme-assets/RPS_you_lost.png)
+![Result text if it's a draw](./readme-assets/RPS_draw.png)
+
 
 
 ## Testing
