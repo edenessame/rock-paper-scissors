@@ -96,11 +96,18 @@ The how to play section informs the user how to play the game and what is requir
 
 * I tested the site on Google Chrome, Firefox and Microsoft Edge using both an Asus and Hewlett Packard laptop and Google Chrome and Microsoft Edge on a Google Pixle phone and it works in different browsers. Here are the screenshots of how it looks on the Asus laptop with a screen width resolution of 1536 pixles:
 
-  *[The website opened in Google Chrome](./readme-assets/screen_sizes/RPS_on_chrome.png)
-  *[The website opened in Microsoft Edge](./readme-assets/screen_sizes/RPS_on_edgepng.png)
-  *[The website opened in Firefox](./readme-assets/screen_sizes/RPS_firefox.png)
+   * [The website opened in Google Chrome](./readme-assets/screen_sizes/RPS_on_chrome.png)
+   * [The website opened in Microsoft Edge](./readme-assets/screen_sizes/RPS_on_edgepng.png)
+   * [The website opened in Firefox](./readme-assets/screen_sizes/RPS_firefox.png)
 
-* I tested the site is responsive on differect screen sizes using google DevTools.
+* I tested the site is responsive on differect screen sizes using google DevTools:
+
+   * [The website opened in Google Chrome on a Galaxy Fold, width 280 pixles](./readme-assets/screen_sizes/RPS_Galaxy_fold.png)
+   * [The website opened in Google Chrome on a Google Pixle 7, width 412 pixles](./readme-assets/screen_sizes/RPS_Google_pixle_7.png)
+   * [The website opened in Google Chrome on an iPhone Pro Max 14, width 430 pixles](./readme-assets/screen_sizes/RPS_iphone_14_pro_max.png)
+   * [The website opened in Google Chrome on an iPad mini, width 768 pixles](./readme-assets/screen_sizes/RPS_iPad_mini.png)
+   * [The website opened in Google Chrome on a device with a screen width of 1024 pixles](./readme-assets/screen_sizes/RPS_screen_width_1024.png)
+   * [The website opened in Google Chrome on a device with a screen width of 1440 pixles](./readme-assets/screen_sizes/RPS_screen_width_1440.png)
 
 * I confirmed all the content was readable and easy to understand.
 
