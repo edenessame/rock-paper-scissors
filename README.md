@@ -92,9 +92,16 @@ The how to play section informs the user how to play the game and what is requir
 
 * When the user hovers over the buttons they should change colour and the mouse turn to a pointer, so the user can see where they will click, I tested this worked correctly in the browser and it did.
 
-* I tested the disablebtn and enablebtn functions, when the score of either the player or computer reaches 5, the icon buttons are disabled and no longer clickable, then reset when the "replay" button is pressed. I tested this worked correctly in the browser and it did.
+* I tested the disablebtn and enablebtn functions, when the score of either the player or computer reaches 5, the icon buttons are disabled and no longer clickable, then all the variables and text colours are reset when the "replay" button is pressed. I tested this worked correctly in the browser and it did.
 
 * I tested the replayGame function and button worked, when the button was pressed it reset all the values and enabled the buttons again.
+
+* When everything was complete I tested that everything still worked correctly together:
+  * The buttons changed colour when moused over
+  * The "result" message gave the correct button that was clicked and the correct selection that was logged to the console by the computer and was the correct colour depending on the result.
+  * The scores incremented correctly corresponding to the result.
+  * When either the user or computers scores reached five the "winner" text updated with the correct winner in the correct colour and the buttons were disabled.
+  * When pressing the "replay" button all the variables and text colours are reset to their original values and the game can be played again.
 
 ### Testing the site responsivity on different screen sizes and browsers
 
