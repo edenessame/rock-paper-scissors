@@ -25,7 +25,7 @@ The main game area is simple and easy to understand, providing the three play bu
 
 ![The main game play area](./readme-assets/RPS_Game_area.png)
 
-When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select. When clicking on an item, a function is called `let randomChoice = Math.floor(Math.random() * 3); to randomly select a number from 0, 1 or 2, this number corresponds to an array: `let computerChoices = ["rock", "paper", "scissors"]; and this then creates the computers random response to the user by selecting one of the items in the array: `computerChoice = computerChoices[randomChoice]; The users choice and the computers choice are then compared to each other to determine the winner. 
+When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select. When clicking on an item, a function is called `let randomChoice = Math.floor(Math.random() * 3);` to randomly select a number from 0, 1 or 2, this number corresponds to an array: `let computerChoices = ["rock", "paper", "scissors"];` and this then creates the computers random response to the user by selecting one of the items in the array: `computerChoice = computerChoices[randomChoice];` The users choice and the computers choice are then compared to each other to determine the winner. 
 
 ![The buttons changing colour when hovered over](./readme-assets/RPS_hover.png)
 
