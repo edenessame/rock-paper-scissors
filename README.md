@@ -49,6 +49,12 @@ After each round the user and computer scores will increment in the score area u
 
 ![score area](./readme-assets/Score_area.png)
 
+### Replay button
+
+Pressing the replay button resets all the variables so the user can play again. When its hovered over, it's green to be inviting and not a warning colour.
+
+![Replay button](./readme-assets/RPS_replay.png) ![Replay button hovered over](./readme-assets/RPS_replay_green.png)
+
 
 
 ## Testing
