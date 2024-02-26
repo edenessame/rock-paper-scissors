@@ -106,6 +106,10 @@ The how to play section informs the user how to play the game and what is requir
 
 * I was finding my checkWinner function wasn't working, a message was meant to be shown when either the user or the computer reached 5 wins, but nothing would show, on the frrecodecamp.com I was helped to realise that the variables I was trying to call weren't being changed. So I set them to 0 as global variables and increased the relevant one each time in the runGame function: https://forum.freecodecamp.org/t/incrementing-score-and-getting-a-message-when-reaching-a-certain-amount/673829 
 
+### Unfixed bugs
+
+* No unfixed bugs
+
 ### Validator testing
 
 * **HTML** 
