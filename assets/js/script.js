@@ -53,7 +53,7 @@ function runGame() {
             incrementComputerScore();
             computerScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "#960018";
+            result.style.color = "#FF0800";
         }
     }
     else if (choice == "paper") {
@@ -66,7 +66,7 @@ function runGame() {
             incrementComputerScore();
             computerScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "#960018";
+            result.style.color = "#FF0800";
         }
     }
     else if (choice == "scissors") {
@@ -79,7 +79,7 @@ function runGame() {
             incrementComputerScore();
             computerScore++;
             result.innerText = `You played ${choice}. The computer played ${computerChoice}. You lost!`;
-            result.style.color = "#960018";
+            result.style.color = "#FF0800";
         }
     }
     checkWinner();
@@ -91,7 +91,7 @@ function runGame() {
 function checkWinner() {
     if (userScore >= 5) {
         winner.innerText = "Congratulations! You won 5 times! You win!\n Press the replay button to play again!";
-        winner.style.color = "#40a829";
+        winner.style.color = "#008200";
         disablebtn();
         return;
     } else if (computerScore >= 5) {
