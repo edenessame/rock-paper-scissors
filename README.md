@@ -25,7 +25,7 @@ The main game area is simple and easy to understand, providing the three play bu
 
 ![The main game play area](./readme-assets/RPS_Game_area.png)
 
-When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select.
+When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select. When clicking on an item, a function is called `let randomChoice = Math.floor(Math.random() * 3); to randomly select a number from 0, 1 or 2, this number corresponds to an array: `let computerChoices = ["rock", "paper", "scissors"]; and this then creates the computers random response to the user by selecting one of the items in the array: `computerChoice = computerChoices[randomChoice]; The users choice and the computers choice are then compared to each other to determine the winner. 
 
 ![The buttons changing colour when hovered over](./readme-assets/RPS_hover.png)
 
@@ -45,7 +45,7 @@ If the computer wins five times the "Who will win?" text will update with a mess
 
 ### Score area
 
-After each round the user and computer scores will increment in the score area until one of them reaches five, this will then update the overall winner text in the game area saying who was first to reach 5 and dissabling the buttons, until the replay button is pressed.
+After each round the user and computer scores will increment in the score area and update the result text with who won the round, until one of them reaches five, this will then update the overall winner text in the game area saying who was first to reach five and dissabling the buttons, until the replay button is pressed.
 
 ![score area](./readme-assets/Score_area.png)
 
@@ -53,9 +53,14 @@ After each round the user and computer scores will increment in the score area u
 
 Pressing the replay button resets all the variables so the user can play again. When its hovered over, it's green to be inviting and not a warning colour.
 
-![Replay button](./readme-assets/RPS_replay.png) ![Replay button hovered over](./readme-assets/RPS_replay_green.png)
+![Replay button](./readme-assets/RPS_replay.png) 
+![Replay button hovered over](./readme-assets/RPS_replay_green.png)
 
+### How to play and the rules
 
+The how to play section informs the user how to play the game and what is required to win. The rules section tells the user the predefined rules so they know which hands beat each other.
+
+![instructions on how to play and the rules](./readme-assets/RPS_rules.png)
 
 ## Testing
 
