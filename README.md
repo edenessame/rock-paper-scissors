@@ -37,7 +37,16 @@ The goal is to create a well functioning game that responds smoothly and is easy
 
 As the developer I wanted to create an interactive and responsive game of chance, with varying results to keep the user engaged and a positive visual experience.
 
+### Structure
 
+I used a simple layout that isn't overcrowded and is easy to understand:
+  * The heading is clear and easy to read at the top of the page.
+  * Followed by the main game area, which is large and a different colour so it stands out. 
+  * Then the scores are underneath and easy to see.
+  * This is followed by the "Replay" button which is large and also a different colour, so it stands out and is easy to see.
+  * Finally the rules and instructions are at the bottom, so they are not intrusive to anyone who knows how to play, but are easy to find for anyone who doesn't.
+
+ 
   
 ## Technologies
 
