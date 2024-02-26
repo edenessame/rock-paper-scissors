@@ -87,6 +87,7 @@ function runGame() {
 
 /**
  * Updates the "winner" paragraph when either the player or computer reaches 5 wins 
+ * Disables buttons
  */
 function checkWinner() {
     if (userScore >= 5) {
@@ -124,6 +125,7 @@ function incrementComputerScore() {
 
 /**
  * Resets all the variables to play the game again
+ * Enables buttons
  */
 function replayGame() {
     userScore = 0;
@@ -137,12 +139,18 @@ function replayGame() {
     result.style.color = "black";
 }
 
+/**
+ * Disable icon buttons
+ */
 function disablebtn() {
     document.getElementById("btn-rock").disabled = true; 
     document.getElementById("btn-paper").disabled = true; 
     document.getElementById("btn-scissors").disabled = true; 
 }
 
+/**
+ * Enable icon buttons
+ */
 function enablebtn() {
     document.getElementById("btn-rock").disabled = false; 
     document.getElementById("btn-paper").disabled = false; 
