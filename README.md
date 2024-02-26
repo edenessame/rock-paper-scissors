@@ -84,7 +84,7 @@ The how to play section informs the user how to play the game and what is requir
 
 * I tested my checkWinner function, if the user score reached 5 the "winner" paragraph reads :"Congratulations! You won 5 times! You win!", if the computer score reaches 5 first the paragraph reads: "Oh no! The computer won 5 times! You lost!"
 
-* I tested that the correct items appeared in the right spans, so what the user and computer played could be seen. Whatever button was clicked the correct word would appear in the player-choice span and in the result paragraph it would say "You played 'the correct thing'". It also did the same for what the computer was selecting, I checked this corresponded to what was being logged by the computer in the console. 
+* I tested that the correct message appeared in the result paragraph, so that it read what the user and computer had played and what the result from that was. Whatever button was clicked the correct corresponding word would appear, followed by the correct thing the computer played (I checked this corresponded to what was being logged to the console by the computer). This was then followed by the correct result of of the two items played, either "You won!", "You lost!" or "it's a draw!" 
 
 * I changed the colours of the winner and result text depending on the out come, it should be green for a win, red for a loss and blue for a draw, I tested this worked and made sure there was sufficient contrast so that the words were visible.
 
@@ -92,7 +92,7 @@ The how to play section informs the user how to play the game and what is requir
 
 * I tested the disablebtn and enablebtn functions, when the score of either the player or computer reaches 5, the icon buttons are disabled and no longer clickable, then reset when the "replay" button is pressed. I tested this worked correctly in the browser and it did.
 
-* I tested the replayGame function and button worked, when the button was pressed it reset all the values.
+* I tested the replayGame function and button worked, when the button was pressed it reset all the values and enabled the buttons again.
 
 * I tested the site on Google Chrome, Firefox and Microsoft Edge using both an Asus and Hewlett Packard laptop and Google Chrome and Microsoft Edge on a Google Pixle phone and it works in different browsers.
 
