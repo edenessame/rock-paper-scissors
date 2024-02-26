@@ -78,8 +78,7 @@ h1 {
     background-color: rgb(92, 255, 47)
 }
 
-/* Instructions */
-
+/* Instructions to play */
 .headings{
     text-decoration-line: underline;
     text-align: center;
@@ -106,6 +105,7 @@ li{
 
 /* Media queries for screens smaller than 600px */
 @media only screen and (max-width: 600px){
+    
     /* Heading */
     h1 {
         text-align: center;
@@ -125,6 +125,7 @@ li{
 
 /* Media queries for screens larger than 600px */
 @media only screen and (min-width: 600px){
+    
     /* Main game play area */
     .game-area {
         width: fit-content;
@@ -133,6 +134,7 @@ li{
 
 /* Media queries for screens larger than 1024px */
 @media only screen and (min-width: 1024px){
+    
     /* Main game play area */
     .game-area {
         width: 700px;

@@ -9,8 +9,6 @@ const winner = document.getElementById("winner");
  * Iterates through the different item buttons and sets them in the variable "choice"
  * So when "choice" is called it is associated with the correct item button that was clicked
  * When the "replay" button is clicked, calls the replayGame function
- * Some code taken from the code institute love maths walk through project
- * https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js
  */
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");

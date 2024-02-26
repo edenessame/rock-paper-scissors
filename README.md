@@ -9,6 +9,8 @@ The winner is determined by the rules that rock beats scissors (by breaking them
 
 The overall winner of this game is the first to win five rounds.
 
+The game is suitable for users of all age groups, because it is easy to play and understand.
+
 ![The websites appearance on different screen sizes](./readme-assets/RPS_different_screens.png)
 
 ## Technologies
