@@ -102,10 +102,10 @@ The how to play section informs the user how to play the game and what is requir
 
 * I tested the site is responsive on differect screen sizes using google DevTools:
 
-   * [The website opened in Google Chrome on a Galaxy Fold, width 280 pixles](./readme-assets/screen_sizes/RPS_Galaxy_fold.png)
-   * [The website opened in Google Chrome on a Google Pixle 7, width 412 pixles](./readme-assets/screen_sizes/RPS_Google_pixle_7.png)
-   * [The website opened in Google Chrome on an iPhone Pro Max 14, width 430 pixles](./readme-assets/screen_sizes/RPS_iphone_14_pro_max.png)
-   * [The website opened in Google Chrome on an iPad mini, width 768 pixles](./readme-assets/screen_sizes/RPS_iPad_mini.png)
+   * [The website opened in Google Chrome on a Galaxy Fold, screen width 280 pixles](./readme-assets/screen_sizes/RPS_Galaxy_fold.png)
+   * [The website opened in Google Chrome on a Google Pixle 7, screen width 412 pixles](./readme-assets/screen_sizes/RPS_Google_pixle_7.png)
+   * [The website opened in Google Chrome on an iPhone Pro Max 14, screen width 430 pixles](./readme-assets/screen_sizes/RPS_iphone_14_pro_max.png)
+   * [The website opened in Google Chrome on an iPad mini, screen width 768 pixles](./readme-assets/screen_sizes/RPS_iPad_mini.png)
    * [The website opened in Google Chrome on a device with a screen width of 1024 pixles](./readme-assets/screen_sizes/RPS_screen_width_1024.png)
    * [The website opened in Google Chrome on a device with a screen width of 1440 pixles](./readme-assets/screen_sizes/RPS_screen_width_1440.png)
 
