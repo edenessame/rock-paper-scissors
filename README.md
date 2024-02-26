@@ -98,10 +98,10 @@ The how to play section informs the user how to play the game and what is requir
 
 * When everything was complete I tested that everything still worked correctly together:
   * The buttons changed colour when moused over
-  * The "result" message gave the correct button that was clicked and the correct selection that was logged to the console by the computer and was the correct colour depending on the result.
+  * The "result" message gave the value of the correct button that was clicked and the correct selection that was logged to the console by the computer and was the correct colour depending on the result.
   * The scores incremented correctly corresponding to the result.
   * When either the user or computers scores reached five the "winner" text updated with the correct winner in the correct colour and the buttons were disabled.
-  * When pressing the "replay" button all the variables and text colours are reset to their original values and the game can be played again.
+  * When pressing the "replay" button, all the variables and text colours are reset to their original values and the game can be played again.
 
 ### Testing the site responsivity on different screen sizes and browsers
 
