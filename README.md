@@ -28,6 +28,16 @@ I came up with the following needs that the user would want satisfied by the web
   * As a user, I want the game to work the same as playing a person in real life.
   * As a user I want the computers choice to be random, so it doesn't always lose or always win.
   * As a user I want the game to have an end point, with a winner, so it doesn't just carry on.
+
+### Strategy
+
+The goal is to create a well functioning game that responds smoothly and is easy for the user to play and understand.
+
+### Scope
+
+As the developer I wanted to create an interactive and responsive game of chance, with varying results to keep the user engaged and a positive visual experience.
+
+
   
 ## Technologies
 
