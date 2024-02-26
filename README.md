@@ -21,13 +21,13 @@ The heading is clear, easy to read and tells the user the name of the game.
 
 ### Main game area
 
-![The main game play area](./readme-assets/RPS_Game_area.png)
-
 The main game area is simple and easy to understand, providing the three play buttons for the user to press and messages inviting them to play.
 
-![The buttons changing colour when hovered over](./readme-assets/RPS_hover.png)
+![The main game play area](./readme-assets/RPS_Game_area.png)
 
 When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select.
+
+![The buttons changing colour when hovered over](./readme-assets/RPS_hover.png)
 
 After each round the "Let's Play!" text updates saying what the user played, what the computer played and who won. If the user won, the text is green, if the computer won, the text is red and if it's a draw the text is blue.
 
@@ -39,9 +39,16 @@ If the user wins five times the "Who will win?" text will update with a message 
 
 ![winner text if the user won](./readme-assets/RPS_you_won_overall.png)
 
-If the computer wins five times the "Who will win?" text will update with a message of commiseration in red and informing them they can play again by pressing the replay button.
+If the computer wins five times the "Who will win?" text will update with a message telling them they lost in red and informing them they can play again by pressing the replay button.
 
 ![Winner text if the computer won](./readme-assets/RPS_CPU_won.png)
+
+### Score area
+
+After each round the user and computer scores will increment in the score area until one of them reaches five, this will then update the overall winner text in the game area saying who was first to reach 5 and dissabling the buttons, until the replay button is pressed.
+
+![score area](./readme-assets/Score_area.png)
+
 
 
 ## Testing
