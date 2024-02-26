@@ -56,7 +56,7 @@ When the user wins a round, or the whole game, I used green text as this usually
 
 When the user loses a round, or the whole game, I used red text as this usually connotes losing and a negative result.
 
-For a draw I used blue as it was my main colour scheme it seemed quite neutral.
+For a draw I used blue as it was my main colour scheme it seemed neutral.
 
 I made sure they were all easily readable on top of the background.
 
