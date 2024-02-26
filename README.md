@@ -35,6 +35,13 @@ After each round the "Let's Play!" text updates saying what the user played, wha
 ![Result text if the computer won](./readme-assets/RPS_you_lost.png)
 ![Result text if it's a draw](./readme-assets/RPS_draw.png)
 
+If the user wins five times the "Who will win?" text will update with a message congratulating them in green and informing them they can play again by pressing the replay button.
+
+![winner text if the user won](./readme-assets/RPS_you_won_overall.png)
+
+If the computer wins five times the "Who will win?" text will update with a message of commiseration in red and informing them they can play again by pressing the replay button.
+
+![Winner text if the computer won](./readme-assets/RPS_CPU_won.png)
 
 
 ## Testing
