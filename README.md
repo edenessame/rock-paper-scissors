@@ -96,7 +96,7 @@ The how to play section informs the user how to play the game and what is requir
 
 * I tested the replayGame function and button worked, when the button was pressed it reset all the values and enabled the buttons again.
 
-### Testing the site responsibility on different screen sizes and browsers
+### Testing the site responsiveness on different screen sizes and browsers
 
 * I tested the site on Google Chrome, Firefox and Microsoft Edge using both an Asus and Hewlett Packard laptop and Google Chrome and Microsoft Edge on a Google Pixle phone and it works in different browsers. Here are the screenshots of how it looks on the Asus laptop with a screen width resolution of 1536 pixles:
 
