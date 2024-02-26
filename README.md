@@ -142,6 +142,8 @@ The how to play section informs the user how to play the game and what is requir
   * The link to the website can be found at the top of the page.
   * The deployed website will update automatically with new commits to the master branch. 
 
+* The live link can be found here: https://edenessame.github.io/rock-paper-scissors/  
+
 ## Credits
 
 ### Content
