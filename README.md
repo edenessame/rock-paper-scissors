@@ -11,6 +11,12 @@ The overall winner of this game is the first to win five rounds.
 
 ![The websites appearance on different screen sizes](./readme-assets/RPS_different_screens.png)
 
+## Technologies
+
+* HTML - to create the basic structure of the site.
+* CSS - to give style to the site and make it easy for the user to view.
+* JavaScript - to create a dynamic and iteractive site for the user to interact with. 
+
 ## Features
 
 ### Heading
