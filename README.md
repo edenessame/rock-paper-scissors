@@ -11,6 +11,21 @@ The overall winner of this game is the first to win five rounds.
 
 ![The websites appearance on different screen sizes](./readme-assets/RPS_different_screens.png)
 
+## Features
+
+![The website heading](./readme-assets/Heading_RPS.png)
+
+The heading is clear, easy to read and tells the user the name of the game.
+
+![The main game play area](./readme-assets/RPS_Game_area.png)
+
+The main game area is simple and easy to understand, providing the three play buttons for the user to press and messages inviting them to play.
+
+![The buttons changing colour when hovered over](./readme-assets/RPS_hover.png)
+
+When the user hovers their mouse over the buttons they change colour and the cursor turns into a pointer so the user can see which icon they are going to select.
+
+
 ## Testing
 
 * After setting up the HTML, CSS and JavaScript files I checked they were linked by adding a body colour placeholder to the css file and a console.log message to the javascript file. Then opening the preview browser, typing: python3 -m http.server into the terminal. In the preview browser I could see the page was the correct colour and by inspecting the page using DevTools I could see that the message had appeared in the console.
@@ -35,7 +50,7 @@ The overall winner of this game is the first to win five rounds.
 
 * I tested the replayGame function and button worked, when the button was pressed it reset all the values.
 
-* I tested the site on Google Chrome, Firefox and Microsoft Edge using an Asus and Hewlett Packard laptop and Google Chrome and Microsoft Edge on a Google Pixle phone and it works in different browsers.
+* I tested the site on Google Chrome, Firefox and Microsoft Edge using both an Asus and Hewlett Packard laptop and Google Chrome and Microsoft Edge on a Google Pixle phone and it works in different browsers.
 
 * I tested the site is responsive on differect screen sizes using google DevTools.
 
