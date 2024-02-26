@@ -84,7 +84,7 @@ The how to play section informs the user how to play the game and what is requir
 
 * I tested my checkWinner function, if the user score reached 5 the "winner" paragraph reads :"Congratulations! You won 5 times! You win!", if the computer score reaches 5 first the paragraph reads: "Oh no! The computer won 5 times! You lost!"
 
-* I tested that the correct message appeared in the result paragraph, so that it read what the user and computer had played and what the result from that was. Whatever button was clicked the correct corresponding word would appear, followed by the correct thing the computer played (I checked this corresponded to what was being logged to the console by the computer). This was then followed by the correct result of of the two items played, either "You won!", "You lost!" or "it's a draw!" 
+* I tested that the correct message appeared in the result paragraph, so that it read what the user and computer had played and what the result from that was. Whatever button was clicked the correct corresponding word would appear, followed by the correct thing the computer played (I checked this corresponded to what was being logged to the console by the computer). This was then followed by the correct result of the two items played, either "You won!", "You lost!" or "it's a draw!" 
 
 * I changed the colours of the winner and result text depending on the out come, it should be green for a win, red for a loss and blue for a draw, I tested this worked and made sure there was sufficient contrast so that the words were visible.
 
