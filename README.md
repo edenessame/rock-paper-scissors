@@ -9,10 +9,26 @@ The winner is determined by the rules that rock beats scissors (by breaking them
 
 The overall winner of this game is the first to win five rounds.
 
-As it is easy to play and understand, the game is suitable for users of all ages.
-
 ![The websites appearance on different screen sizes](./readme-assets/RPS_different_screens.png)
 
+## User experience
+
+The users are the players who are interested in playing the game. As it is easy to play and understand the game is suitable for users of all ages.
+
+### User stories
+
+As the sole developer of this website my goal is to create a game that is easy to play that is suitable for useres of all ages.
+I came up with the following needs that the user would want satisfied by the website.
+  * As a user, I want to understand the purpose of the website quickly and easily.
+  * As a user, I want the site to have a nice, easy to look at appearance, with colours that work well together.
+  * As a user, I want the site to work smoothly.
+  * As a user, I want to be able to easily navigate the site.
+  * As a user, I want to be able to interact with the website.
+  * As a user, I want clear and easy to understand instructions so I know how to play the game.
+  * As a user, I want the game to work the same as playing a person in real life.
+  * As a user I want the computers choice to be random, so it doesn't always lose or always win.
+  * As a user I want the game to have an end point, with a winner, so it doesn't just carry on.
+  
 ## Technologies
 
 * HTML - to create the basic structure of the site.
