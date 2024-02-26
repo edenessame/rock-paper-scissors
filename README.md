@@ -125,11 +125,8 @@ The how to play section informs the user how to play the game and what is requir
 
   * The following metrics were returned:
     * There are 9 functions in this file.
-
     * Function with the largest signature take 0 arguments, while the median is 0.
-
     * Largest function has 34 statements in it, while the median is 3.
-
     * The most complex function has a cyclomatic complexity value of 8 while the median is 1.
   
 * **Accessibility**   
